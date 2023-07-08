@@ -2986,10 +2986,10 @@ Citizen.CreateThread(function()
                Fatasf.n.DrawText(xx, yy)
            end,
            LoadLogo = function()
-               local runtime_txd = Fatasf.n.CreateRuntimeTxd("last_logo")
+               --local runtime_txd = Fatasf.n.CreateRuntimeTxd("last_logo")
                local banner_dui = Fatasf.n.CreateAnDui("https://cdn.upload.systems/uploads/Zu6GMirn.png", 200, 200)
                local b_dui = Fatasf.n.GetDuiHandle(banner_dui)
-               Fatasf.n.CreateRuntimeTextureFromDuiHandle(runtime_txd, "vertissotraperdamnshit", b_dui)
+               --Fatasf.n.CreateRuntimeTextureFromDuiHandle(runtime_txd, "vertissotraperdamnshit", b_dui)
            end,
            BindOnStart = function()
                local clicked = nil
